@@ -1,3 +1,4 @@
+from dataclasses import dataclass
 import json
 import reprlib  # noqa
 import re
@@ -11,27 +12,75 @@ with open('cards.json', 'r', encoding='utf-8') as f:
 # print(reprlib.repr(loaded))
 
 # キャラクター一覧
-char_lst = set()
+# char_lst = set()
+# for card in loaded:
+#     char_lst.add(card['character'])
+
+# 旧カードリスト作成（キャラ分け無し）
+# card_lst = {}
+# for card in loaded:
+#     dct_inner = {}
+#     name = card['name']
+#     card_lst[name] = dct_inner
+
+#     cost = card['cost']
+#     if cost != 'X':
+#         dct_inner['cost'] = int(cost)
+#     else:
+#         dct_inner['cost'] = cost
+
+#     damage = card['description']
+#     damage = re.findall(r'Deal (\d) ', damage)
+#     if damage == []:
+#         dct_inner['damage'] = 0
+#     else:
+#         dct_inner['damage'] = int(damage[0])
+
+card_lst = {}
+
+@dataclass
+class Char:
+    card_name: str
+    desc: dict
+
+    def add_card(self, card_name, desc):
+        self.card_name[] = desc
+
 for card in loaded:
-    char_lst.add(card['character'])
+    dct_inner = {}
+    name = card['name']
+    card_lst[name] = dct_inner
 
-card_set = []
+    cost = card['cost']
+    if cost != 'X':
+        dct_inner['cost'] = int(cost)
+    else:
+        dct_inner['cost'] = cost
 
-dct = {}
-name = loaded[1]['name']
-dct['name'] = name
+    damage = card['description']
+    damage = re.findall(r'Deal (\d) ', damage)
+    if damage == []:
+        dct_inner['damage'] = 0
+    else:
+        dct_inner['damage'] = int(damage[0])
 
-cost = loaded[1]['cost']
-dct['cost'] = int(cost)
+# jsonファイルへの書き出し(表示確認用)
+with open('card_list.json', 'w', encoding='utf-8') as f:
+    f.write('')
+    json.dump(card_lst, f, indent=2)
 
-damage = loaded[1]['description']
-damage = re.findall(r'Deal (\d) ', damage)
-dct['damage'] = int(damage[0])
+# スターターデッキ作成
+starter_deck_Silent = []
+for _ in range(5):
+    starter_deck_Silent.append(card_lst['Strike'])
+    starter_deck_Silent.append(card_lst['Defend'])
+starter_deck_Silent.append(card_lst['Survivor'])
+starter_deck_Silent.append(card_lst['Neutralize'])
 
-print(dct)
+
+print(starter_deck_Silent)
 
 # print(char_lst)
-
 # キャラクター別に分ける
 # for card in loaded:
 #     temp

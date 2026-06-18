@@ -1,0 +1,2166 @@
+{
+  "Defend": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Strike": {
+    "cost": 1,
+    "damage": 6
+  },
+  "Bash": {
+    "cost": 2,
+    "damage": 8
+  },
+  "Anger": {
+    "cost": 0,
+    "damage": 6
+  },
+  "Bloodletting": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Armaments": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Body Slam": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Breakthrough": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Havoc": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Headbutt": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Iron Wave": {
+    "cost": 1,
+    "damage": 5
+  },
+  "Molten Fist": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Pommel Strike": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Setup Strike": {
+    "cost": 1,
+    "damage": 7
+  },
+  "Shrug It Off": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Sword Boomerang": {
+    "cost": 1,
+    "damage": 3
+  },
+  "Thunderclap": {
+    "cost": 1,
+    "damage": 4
+  },
+  "Tremble": {
+    "cost": 1,
+    "damage": 0
+  },
+  "True Grit": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Twin Strike": {
+    "cost": 1,
+    "damage": 5
+  },
+  "Blood Wall": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Cinder": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Perfected Strike": {
+    "cost": 2,
+    "damage": 6
+  },
+  "Battle Trance": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Bully": {
+    "cost": 0,
+    "damage": 4
+  },
+  "Demonic Shield": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Rage": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Spite": {
+    "cost": 0,
+    "damage": 5
+  },
+  "Whirlwind": {
+    "cost": 0,
+    "damage": 5
+  },
+  "Ashen Strike": {
+    "cost": 1,
+    "damage": 6
+  },
+  "Burning Pact": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Colossus": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Dismantle": {
+    "cost": 1,
+    "damage": 8
+  },
+  "Dominate": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Drum of Battle": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Evil Eye": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Feel No Pain": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Forgotten Ritual": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Hemokinesis": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Infernal Blade": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Inferno": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Inflame": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Juggling": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Pillage": {
+    "cost": 1,
+    "damage": 6
+  },
+  "Rampage": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Rupture": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Second Wind": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Stone Armor": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Taunt": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Vicious": {
+    "cost": 1,
+    "damage": 0
+  },
+  "ExpectAFight": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Fight Me!": {
+    "cost": 2,
+    "damage": 5
+  },
+  "Flame Barrier": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Stampede": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Unrelenting": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Uppercut": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Bludgeon": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Howl from Beyond": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Stomp": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Brand": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Offering": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Pact's End": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Primal Force": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Aggression": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Conflagration": {
+    "cost": 1,
+    "damage": 2
+  },
+  "Crimson Mantle": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Cruelty": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Feed": {
+    "cost": 1,
+    "damage": 0
+  },
+  "One-Two Punch": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Stoke": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Tank": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Thrash": {
+    "cost": 1,
+    "damage": 4
+  },
+  "Dark Embrace": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Fiend Fire": {
+    "cost": 2,
+    "damage": 7
+  },
+  "Hellraiser": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Impervious": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Juggernaut": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Not Yet": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Pyre": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Tear Asunder": {
+    "cost": 2,
+    "damage": 5
+  },
+  "Unmovable": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Barricade": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Demon Form": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Mangle": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Cascade": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Break": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Corruption": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Neutralize": {
+    "cost": 0,
+    "damage": 3
+  },
+  "Survivor": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Anticipate": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Deflect": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Prepared": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Slice": {
+    "cost": 0,
+    "damage": 6
+  },
+  "Backflip": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Blade Dance": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Cloak and Dagger": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Dagger Spray": {
+    "cost": 1,
+    "damage": 4
+  },
+  "Dagger Throw": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Deadly Poison": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Dodge and Roll": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Flick-Flack": {
+    "cost": 1,
+    "damage": 6
+  },
+  "Leading Strike": {
+    "cost": 1,
+    "damage": 3
+  },
+  "Piercing Wail": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Poisoned Stab": {
+    "cost": 1,
+    "damage": 6
+  },
+  "Sucker Punch": {
+    "cost": 1,
+    "damage": 8
+  },
+  "Predator": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Ricochet": {
+    "cost": 2,
+    "damage": 3
+  },
+  "Snakebite": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Untouchable": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Backstab": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Calculated Gamble": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Escape Plan": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Expose": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Hidden Daggers": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Precise Cut": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Scare": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Skewer": {
+    "cost": 0,
+    "damage": 8
+  },
+  "Accuracy": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Acrobatics": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Blur": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Bubble Bubble": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Expertise": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Finisher": {
+    "cost": 1,
+    "damage": 6
+  },
+  "Flechettes": {
+    "cost": 1,
+    "damage": 5
+  },
+  "Footwork": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Hand Trick": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Infinite Blades": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Memento Mori": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Mirage": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Noxious Fumes": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Outbreak": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Phantom Blades": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Strangle": {
+    "cost": 1,
+    "damage": 8
+  },
+  "Well-Laid Plans": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Bouncing Flask": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Dash": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Flanking": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Leg Sweep": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Pounce": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Speedster": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Up My Sleeve": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Haze": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Pinpoint": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Reflex": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Tactician": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Adrenaline": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Assassinate": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Grand Finale": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Malaise": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Accelerant": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Afterimage": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Blade of Ink": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Burst": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Corrosive Wave": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Echoing Slash": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Shadowmeld": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Shadow Step": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Storm of Steel": {
+    "cost": 1,
+    "damage": 0
+  },
+  "The Hunt": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Tools of the Trade": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Envenom": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Fan of Knives": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Knife Trap": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Master Planner": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Sneaky": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Tracking": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Abrasive": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Bullet Time": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Murder": {
+    "cost": 3,
+    "damage": 1
+  },
+  "Nightmare": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Serpent Form": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Suppress": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Wraith Form": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Dualcast": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Zap": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Beam Cell": {
+    "cost": 0,
+    "damage": 3
+  },
+  "Boost Away": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Claw": {
+    "cost": 0,
+    "damage": 3
+  },
+  "Go for the Eyes": {
+    "cost": 0,
+    "damage": 3
+  },
+  "Hotfix": {
+    "cost": 0,
+    "damage": 0
+  },
+  "TURBO": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Ball Lightning": {
+    "cost": 1,
+    "damage": 7
+  },
+  "Barrage": {
+    "cost": 1,
+    "damage": 5
+  },
+  "Charge Battery": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Cold Snap": {
+    "cost": 1,
+    "damage": 6
+  },
+  "Compile Driver": {
+    "cost": 1,
+    "damage": 7
+  },
+  "Coolheaded": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Focused Strike": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Gunk Up": {
+    "cost": 1,
+    "damage": 4
+  },
+  "Hologram": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Leap": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Lightning Rod": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Momentum Strike": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Sweeping Beam": {
+    "cost": 1,
+    "damage": 6
+  },
+  "Uproar": {
+    "cost": 2,
+    "damage": 6
+  },
+  "Boot Sequence": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Chill": {
+    "cost": 0,
+    "damage": 0
+  },
+  "FTL": {
+    "cost": 0,
+    "damage": 5
+  },
+  "Overclock": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Tempest": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Tesla Coil": {
+    "cost": 0,
+    "damage": 3
+  },
+  "Capacitor": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Chaos": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Compact": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Darkness": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Double Energy": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Energy Surge": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Fight Through": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Fusion": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Glasswork": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Hailstorm": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Iteration": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Loop": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Scavenge": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Scrape": {
+    "cost": 1,
+    "damage": 7
+  },
+  "Skim": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Smokestack": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Storm": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Subroutine": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Synchronize": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Thunder": {
+    "cost": 1,
+    "damage": 0
+  },
+  "White Noise": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Bulk Up": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Feral": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Glacier": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Null": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Rocket Punch": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Shadow Shield": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Synthesis": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Refract": {
+    "cost": 3,
+    "damage": 9
+  },
+  "Sunder": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Helix Drill": {
+    "cost": 0,
+    "damage": 3
+  },
+  "Modded": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Multi-Cast": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Reboot": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Supercritical": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Coolant": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Defragment": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Genetic Algorithm": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Ignition": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Machine Learning": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Shatter": {
+    "cost": 1,
+    "damage": 7
+  },
+  "Signal Boost": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Spinner": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Trash to Treasure": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Adaptive Strike": {
+    "cost": 2,
+    "damage": 0
+  },
+  "All for One": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Buffer": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Consuming Shadow": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Flak Cannon": {
+    "cost": 2,
+    "damage": 8
+  },
+  "Hyperbeam": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Rainbow": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Creative AI": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Echo Form": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Ice Lance": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Voltaic": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Meteor Strike": {
+    "cost": 5,
+    "damage": 0
+  },
+  "Biased Cognition": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Quadcast": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Bodyguard": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Unleash": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Poke": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Wisp": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Afterlife": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Blight Strike": {
+    "cost": 1,
+    "damage": 8
+  },
+  "Defile": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Defy": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Drain Power": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Fear": {
+    "cost": 1,
+    "damage": 7
+  },
+  "Graveblast": {
+    "cost": 1,
+    "damage": 4
+  },
+  "Grave Warden": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Invoke": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Negative Pulse": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Reave": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Scourge": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Sculpting Strike": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Snap": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Sow": {
+    "cost": 1,
+    "damage": 8
+  },
+  "Flatten": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Pull Aggro": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Reap": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Dirge": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Fetch": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Right Hand Hand": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Bone Shards": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Borrowed Time": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Calcify": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Capture Spirit": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Cleanse": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Countdown": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Danse Macabre": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Death's Door": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Death March": {
+    "cost": 1,
+    "damage": 8
+  },
+  "Debilitate": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Dredge": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Enfeebling Touch": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Friendship": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Haunt": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Lethality": {
+    "cost": 1,
+    "damage": 0
+  },
+  "No Escape": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Pagestorm": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Parse": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Pull from Below": {
+    "cost": 1,
+    "damage": 5
+  },
+  "Putrefy": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Rattle": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Shroud": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Sic 'Em": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Spur": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Veilpiercer": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Deathbringer": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Delay": {
+    "cost": 2,
+    "damage": 0
+  },
+  "High Five": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Legion of Bone": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Severance": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Sleight of Flesh": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Melancholy": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Bury": {
+    "cost": 4,
+    "damage": 0
+  },
+  "Eradicate": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Misery": {
+    "cost": 0,
+    "damage": 7
+  },
+  "Neurosurge": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Oblivion": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Shared Fate": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Undeath": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Call of the Void": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Devour Life": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Glimpse Beyond": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Hang": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Sacrifice": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Seance": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Soul Storm": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Spirit of Ash": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Transfigure": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Eidolon": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Necro Mastery": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Sentry Mode": {
+    "cost": 2,
+    "damage": 0
+  },
+  "The Scythe": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Time's Up": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Demesne": {
+    "cost": 3,
+    "damage": 0
+  },
+  "End of Days": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Reanimate": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Reaper Form": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Squeeze": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Banshee's Cry": {
+    "cost": 9,
+    "damage": 0
+  },
+  "Protector": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Forbidden Grimoire": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Falling Star": {
+    "cost": 0,
+    "damage": 8
+  },
+  "Venerate": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Astral Pulse": {
+    "cost": 0,
+    "damage": 6
+  },
+  "Cloak of Stars": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Collision Course": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Know Thy Place": {
+    "cost": 0,
+    "damage": 0
+  },
+  "BEGONE!": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Cosmic Indifference": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Crescent Spear": {
+    "cost": 1,
+    "damage": 8
+  },
+  "Crush Under": {
+    "cost": 1,
+    "damage": 7
+  },
+  "Gather Light": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Glow": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Guiding Star": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Hidden Cache": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Patter": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Photon Cut": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Refine Blade": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Solar Strike": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Spoils of Battle": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Wrought in War": {
+    "cost": 1,
+    "damage": 7
+  },
+  "Celestial Might": {
+    "cost": 2,
+    "damage": 6
+  },
+  "Glitterstream": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Alignment": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Gamma Blast": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Largesse": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Lunar Blast": {
+    "cost": 0,
+    "damage": 4
+  },
+  "Monologue": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Particle Wall": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Quasar": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Radiate": {
+    "cost": 0,
+    "damage": 3
+  },
+  "Royal Gamble": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Stardust": {
+    "cost": 0,
+    "damage": 5
+  },
+  "Black Hole": {
+    "cost": 1,
+    "damage": 0
+  },
+  "CHARGE!!": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Child of the Stars": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Conqueror": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Convergence": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Devastate": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Furnace": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Glimmer": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Kingly Punch": {
+    "cost": 1,
+    "damage": 8
+  },
+  "Manifest Authority": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Pale Blue Dot": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Parry": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Pillar of Creation": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Reflect": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Resonance": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Shining Strike": {
+    "cost": 1,
+    "damage": 8
+  },
+  "Summon Forth": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Supermassive": {
+    "cost": 1,
+    "damage": 5
+  },
+  "Terraforming": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Bulwark": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Hegemony": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Orbit": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Prophesize": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Spectrum Shift": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Knockout Blow": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Kingly Kick": {
+    "cost": 4,
+    "damage": 0
+  },
+  "Big Bang": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Comet": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Decisions, Decisions": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Heavenly Drill": {
+    "cost": 0,
+    "damage": 8
+  },
+  "Make It So": {
+    "cost": 0,
+    "damage": 6
+  },
+  "Arsenal": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Beat into Shape": {
+    "cost": 1,
+    "damage": 5
+  },
+  "Bundle of Joy": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Crash Landing": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Dying Star": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Foregone Conclusion": {
+    "cost": 1,
+    "damage": 0
+  },
+  "IAmInvincible": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Neutron Aegis": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Royalties": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Seeking Edge": {
+    "cost": 1,
+    "damage": 0
+  },
+  "The Smith": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Tyranny": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Genesis": {
+    "cost": 2,
+    "damage": 0
+  },
+  "GUARDS!!!": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Hammer Time": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Heirloom Hammer": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Seven Stars": {
+    "cost": 2,
+    "damage": 7
+  },
+  "Sword Sage": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Bombardment": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Monarch's Gaze": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Void Form": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Meteor Shower": {
+    "cost": 0,
+    "damage": 0
+  },
+  "The Sealed Throne": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Believe in You": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Dark Shackles": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Dramatic Entrance": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Finesse": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Flash of Steel": {
+    "cost": 0,
+    "damage": 5
+  },
+  "Impatience": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Jack of All Trades": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Omnislice": {
+    "cost": 0,
+    "damage": 8
+  },
+  "Panache": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Panic Button": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Production": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Prolong": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Purity": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Restlessness": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Thinking Ahead": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Volley": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Automation": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Coordinate": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Discovery": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Fasten": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Fisticuffs": {
+    "cost": 1,
+    "damage": 7
+  },
+  "Gang Up": {
+    "cost": 1,
+    "damage": 5
+  },
+  "Huddle Up": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Intercept": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Lift": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Mind Blast": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Prep Time": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Prowess": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Seeker Strike": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Splash": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Stratagem": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Thrumming Hatchet": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Ultimate Defend": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Ultimate Strike": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Catastrophe": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Equilibrium": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Shockwave": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Tag Team": {
+    "cost": 2,
+    "damage": 0
+  },
+  "The Bomb": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Bolas": {
+    "cost": 0,
+    "damage": 3
+  },
+  "Master of Strategy": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Secret Technique": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Secret Weapon": {
+    "cost": 0,
+    "damage": 0
+  },
+  "The Gambit": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Alchemize": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Anointed": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Beacon of Hope": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Entropy": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Gold Axe": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Hidden Gem": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Mimic": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Nostalgia": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Salvo": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Scrawl": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Hand of Greed": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Mayhem": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Rally": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Rend": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Beat Down": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Calamity": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Eternal Armor": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Jackpot": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Knockdown": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Rolling Boulder": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Spore Mind": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Enthralled": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Bad Luck": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Clumsy": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Curse of the Bell": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Debt": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Decay": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Doubt": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Folly": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Guilty": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Injury": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Normality": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Poor Sleep": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Regret": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Shame": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Writhe": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Brightest Flame": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Wish": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Apparition": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Maul": {
+    "cost": 1,
+    "damage": 5
+  },
+  "Neow's Fury": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Apotheosis": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Relax": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Whistle": {
+    "cost": 3,
+    "damage": 0
+  },
+  "Byrd Swoop": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Clash": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Enlightenment": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Feeding Frenzy": {
+    "cost": 0,
+    "damage": 0
+  },
+  "Caltrops": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Distraction": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Dual Wield": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Exterminate": {
+    "cost": 1,
+    "damage": 3
+  },
+  "Hello World": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Mad Science": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Outmaneuver": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Peck": {
+    "cost": 1,
+    "damage": 2
+  },
+  "Rebound": {
+    "cost": 1,
+    "damage": 9
+  },
+  "Rip and Tear": {
+    "cost": 1,
+    "damage": 7
+  },
+  "Squash": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Stack": {
+    "cost": 1,
+    "damage": 0
+  },
+  "Entrench": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Metamorphosis": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Toric Toughness": {
+    "cost": 2,
+    "damage": 0
+  },
+  "Byrdonis Egg": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Lantern Key": {
+    "cost": "X",
+    "damage": 0
+  },
+  "Spoils Map": {
+    "cost": "X",
+    "damage": 0
+  }
+}
