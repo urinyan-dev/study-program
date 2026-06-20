@@ -70,7 +70,14 @@ with open('card_list.json', 'w', encoding='utf-8') as f:
     json.dump(card_lst, f, indent=2)
 
 # スターターデッキ作成
-starter_deck_Silent = []
+silent_cards = card_list['The Silent']
+
+starter_deck_Silent = silent_cards['Strike'] * 5
+starter_deck_Silent = silent_cards['Defend'] * 5
+starter_deck_Silent = silent_cards['Survivor']
+starter_deck_Silent = silent_cards['Neurtralize']
+
+
 for _ in range(5):
     starter_deck_Silent.append(card_lst['Strike'])
     starter_deck_Silent.append(card_lst['Defend'])
