@@ -1,4 +1,4 @@
-from dataclasses import dataclass
+from dataclasses import dataclass, asdict
 import json
 import reprlib  # noqa
 import re
@@ -36,16 +36,56 @@ with open('cards.json', 'r', encoding='utf-8') as f:
 #     else:
 #         dct_inner['damage'] = int(damage[0])
 
-card_lst = {}
+
+# char: dict[char: str, cards: dict] 
+# cards: dict[card_name: str, desc: dict]
+# desc: dateclass(dict)[cost: int, damage: int]
+# アクセス：card_list[The Silent][Strike].cost or .damage
+
+card_list: dict[str, dict] = {}
+
 
 @dataclass
-class Char:
-    card_name: str
-    desc: dict
+class desc:
+    cost: int | None
+    damage: int
 
-    def add_card(self, card_name, desc):
-        self.card_name[] = desc
 
+def add_card(card_list: dict, character: str, name: str, desc: desc):
+    card_list.setdefault(character, {})[name] = desc
+
+
+for card in loaded:
+    character = card['character']
+    name = card['name']
+    cost = card['cost']
+    if cost != 'X':
+        cost = int(cost)
+    else:
+        cost = None
+    damage = card['description']
+
+    damage = re.findall(r'Deal (\d) ', damage)
+    if damage == []:
+        damage = 0
+    else:
+        damage = int(damage[0])
+
+    add_card(card_list, character, name, desc(cost, damage))
+
+
+# jsonファイルへの書き出し(表示確認用)
+def default(o):
+    if isinstance(o, desc):
+        return asdict(o)
+    raise TypeError(f'Object of type {type(o)} is not JSON serializable')
+
+
+with open('card_list1.json', 'w', encoding='utf-8') as f:
+    f.write('')
+    json.dump(card_list, f, indent=2, default=default)
+
+card_lst = {}
 for card in loaded:
     dct_inner = {}
     name = card['name']
@@ -63,6 +103,7 @@ for card in loaded:
         dct_inner['damage'] = 0
     else:
         dct_inner['damage'] = int(damage[0])
+
 
 # jsonファイルへの書き出し(表示確認用)
 with open('card_list.json', 'w', encoding='utf-8') as f:
