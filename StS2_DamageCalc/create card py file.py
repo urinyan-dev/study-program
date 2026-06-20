@@ -104,7 +104,6 @@ for card in loaded:
     else:
         dct_inner['damage'] = int(damage[0])
 
-
 # jsonファイルへの書き出し(表示確認用)
 with open('card_list.json', 'w', encoding='utf-8') as f:
     f.write('')
@@ -113,12 +112,12 @@ with open('card_list.json', 'w', encoding='utf-8') as f:
 # スターターデッキ作成
 silent_cards = card_list['The Silent']
 
-starter_deck_Silent = silent_cards['Strike'] * 5
-starter_deck_Silent = silent_cards['Defend'] * 5
-starter_deck_Silent = silent_cards['Survivor']
-starter_deck_Silent = silent_cards['Neurtralize']
+# starter_deck_Silent = silent_cards['Strike'] * 5
+# starter_deck_Silent = silent_cards['Defend'] * 5
+# starter_deck_Silent = silent_cards['Survivor']
+# starter_deck_Silent = silent_cards['Neurtralize']
 
-
+starter_deck_Silent = []
 for _ in range(5):
     starter_deck_Silent.append(card_lst['Strike'])
     starter_deck_Silent.append(card_lst['Defend'])
