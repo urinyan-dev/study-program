@@ -47,12 +47,15 @@ card_list: dict[str, dict] = {}
 
 @dataclass
 class desc:
+    name: str
     cost: int | None
     damage: int
 
 
-def add_card(card_list: dict, character: str, name: str, desc: desc):
-    card_list.setdefault(character, {})[name] = desc
+def add_card(card_list: dict, character: str, desc: desc):
+    # card_list.setdefault(character, {})[character] = desc
+    card_list.setdefault(character, {})
+
 
 
 for card in loaded:
@@ -71,7 +74,7 @@ for card in loaded:
     else:
         damage = int(damage[0])
 
-    add_card(card_list, character, name, desc(cost, damage))
+    add_card(card_list, character, desc(name, cost, damage))
 
 
 # jsonファイルへの書き出し(表示確認用)
@@ -111,11 +114,14 @@ with open('card_list.json', 'w', encoding='utf-8') as f:
 
 # スターターデッキ作成
 silent_cards = card_list['The Silent']
+print(reprlib.repr(silent_cards))
 
-# starter_deck_Silent = silent_cards['Strike'] * 5
-# starter_deck_Silent = silent_cards['Defend'] * 5
-# starter_deck_Silent = silent_cards['Survivor']
-# starter_deck_Silent = silent_cards['Neurtralize']
+# starter_deck_Silent1 = silent_cards['Strike'] * 5
+# starter_deck_Silent1 = silent_cards['Defend'] * 5
+# starter_deck_Silent1 = silent_cards['Survivor']
+# starter_deck_Silent1 = silent_cards['Neurtralize']
+
+# print(starter_deck_Silent1)
 
 starter_deck_Silent = []
 for _ in range(5):
