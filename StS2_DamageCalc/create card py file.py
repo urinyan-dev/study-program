@@ -111,6 +111,7 @@ with open('card_list.json', 'w', encoding='utf-8') as f:
 
 # スターターデッキ作成
 silent_cards = card_list['The Silent']
+print(reprlib.repr(silent_cards))
 
 # starter_deck_Silent = silent_cards['Strike'] * 5
 # starter_deck_Silent = silent_cards['Defend'] * 5
