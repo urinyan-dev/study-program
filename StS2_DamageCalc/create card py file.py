@@ -57,7 +57,6 @@ def add_card(card_list: dict, character: str, desc: desc):
     card_list.setdefault(character, {})
 
 
-
 for card in loaded:
     character = card['character']
     name = card['name']
@@ -122,7 +121,6 @@ print(reprlib.repr(silent_cards))
 # starter_deck_Silent1 = silent_cards['Neurtralize']
 
 # print(starter_deck_Silent1)
-
 starter_deck_Silent = []
 for _ in range(5):
     starter_deck_Silent.append(card_lst['Strike'])

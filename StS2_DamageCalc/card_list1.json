@@ -1,65 +1,11 @@
 {
-  "The Ironclad": {
-    "The Ironclad": {
-      "name": "Corruption",
-      "cost": 3,
-      "damage": 0
-    }
-  },
-  "The Silent": {
-    "The Silent": {
-      "name": "Wraith Form",
-      "cost": 3,
-      "damage": 0
-    }
-  },
-  "The Defect": {
-    "The Defect": {
-      "name": "Quadcast",
-      "cost": 1,
-      "damage": 0
-    }
-  },
-  "The Necrobinder": {
-    "The Necrobinder": {
-      "name": "Forbidden Grimoire",
-      "cost": 2,
-      "damage": 0
-    }
-  },
-  "The Regent": {
-    "The Regent": {
-      "name": "The Sealed Throne",
-      "cost": 1,
-      "damage": 0
-    }
-  },
-  "Colorless": {
-    "Colorless": {
-      "name": "Rolling Boulder",
-      "cost": 3,
-      "damage": 0
-    }
-  },
-  "Curse": {
-    "Curse": {
-      "name": "Writhe",
-      "cost": null,
-      "damage": 0
-    }
-  },
-  "Event": {
-    "Event": {
-      "name": "Toric Toughness",
-      "cost": 2,
-      "damage": 0
-    }
-  },
-  "Quest": {
-    "Quest": {
-      "name": "Spoils Map",
-      "cost": null,
-      "damage": 0
-    }
-  }
+  "The Ironclad": {},
+  "The Silent": {},
+  "The Defect": {},
+  "The Necrobinder": {},
+  "The Regent": {},
+  "Colorless": {},
+  "Curse": {},
+  "Event": {},
+  "Quest": {}
 }
