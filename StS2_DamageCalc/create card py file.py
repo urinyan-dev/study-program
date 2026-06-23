@@ -2,47 +2,31 @@ from dataclasses import dataclass, asdict
 import json
 import reprlib  # noqa
 import re
+import random as rd
 
 with open('cards.json', 'r', encoding='utf-8') as f:
     loaded = json.load(f)
 
-# with open('cards.py', 'w', encoding='utf-8') as f_py:
-#     f_py.write(loaded)
-
-# print(reprlib.repr(loaded))
-
-# キャラクター一覧
-# char_lst = set()
-# for card in loaded:
-#     char_lst.add(card['character'])
-
-# 旧カードリスト作成（キャラ分け無し）
-# card_lst = {}
-# for card in loaded:
-#     dct_inner = {}
-#     name = card['name']
-#     card_lst[name] = dct_inner
-
-#     cost = card['cost']
-#     if cost != 'X':
-#         dct_inner['cost'] = int(cost)
-#     else:
-#         dct_inner['cost'] = cost
-
-#     damage = card['description']
-#     damage = re.findall(r'Deal (\d) ', damage)
-#     if damage == []:
-#         dct_inner['damage'] = 0
-#     else:
-#         dct_inner['damage'] = int(damage[0])
-
-
-# char: dict[char: str, cards: dict] 
+# char: dict[char: str, cards: dict]
 # cards: dict[card_name: str, desc: dict]
 # desc: dateclass(dict)[cost: int, damage: int]
 # アクセス：card_list[The Silent][Strike].cost or .damage
 
-card_list: dict[str, dict] = {}
+card_list: dict[str, list] = {}
+
+
+class CardList(list):
+    @property
+    def names(self):
+        return [card.name for card in self]
+
+    @property
+    def costs(self):
+        return [card.cost for card in self]
+
+    @property
+    def damages(self):
+        return [card.damage for card in self]
 
 
 @dataclass
@@ -52,9 +36,8 @@ class desc:
     damage: int
 
 
-def add_card(card_list: dict, character: str, desc: desc):
-    # card_list.setdefault(character, {})[character] = desc
-    card_list.setdefault(character, {})
+def add_card(all_card: dict, character: str, desc: desc):
+    all_card.setdefault(character, []).append(desc)
 
 
 for card in loaded:
@@ -76,70 +59,92 @@ for card in loaded:
     add_card(card_list, character, desc(name, cost, damage))
 
 
-# jsonファイルへの書き出し(表示確認用)
+# dataclassを正しくjson形式で書き出すための処理
 def default(o):
     if isinstance(o, desc):
         return asdict(o)
     raise TypeError(f'Object of type {type(o)} is not JSON serializable')
 
 
-with open('card_list1.json', 'w', encoding='utf-8') as f:
-    f.write('')
-    json.dump(card_list, f, indent=2, default=default)
-
-card_lst = {}
-for card in loaded:
-    dct_inner = {}
-    name = card['name']
-    card_lst[name] = dct_inner
-
-    cost = card['cost']
-    if cost != 'X':
-        dct_inner['cost'] = int(cost)
-    else:
-        dct_inner['cost'] = cost
-
-    damage = card['description']
-    damage = re.findall(r'Deal (\d) ', damage)
-    if damage == []:
-        dct_inner['damage'] = 0
-    else:
-        dct_inner['damage'] = int(damage[0])
-
 # jsonファイルへの書き出し(表示確認用)
 with open('card_list.json', 'w', encoding='utf-8') as f:
     f.write('')
-    json.dump(card_lst, f, indent=2)
+    json.dump(card_list, f, indent=2, default=default)
+
+# サイレントのカードリストを表示させてみる
+silent_cards = CardList(card_list['The Silent'])
+# print(reprlib.repr(silent_cards))
+
 
 # スターターデッキ作成
-silent_cards = card_list['The Silent']
-print(reprlib.repr(silent_cards))
-
-# starter_deck_Silent1 = silent_cards['Strike'] * 5
-# starter_deck_Silent1 = silent_cards['Defend'] * 5
-# starter_deck_Silent1 = silent_cards['Survivor']
-# starter_deck_Silent1 = silent_cards['Neurtralize']
-
-# print(starter_deck_Silent1)
-starter_deck_Silent = []
-for _ in range(5):
-    starter_deck_Silent.append(card_lst['Strike'])
-    starter_deck_Silent.append(card_lst['Defend'])
-starter_deck_Silent.append(card_lst['Survivor'])
-starter_deck_Silent.append(card_lst['Neutralize'])
+def add_card_to_deck(card_name: str, deck: CardList, list: CardList, count: int = 1):  # noqa
+    for card in list:
+        if card.name == card_name:
+            for _ in range(count):
+                deck.append(card)
+            return
 
 
-print(starter_deck_Silent)
-
-# print(char_lst)
-# キャラクター別に分ける
-# for card in loaded:
-#     temp
-#     character = card['character']
-#     if card['character'] == character
-
-# 完成形
-# []
+starter_deck_Silent = CardList([])
+add_card_to_deck('Strike', starter_deck_Silent, silent_cards, 5)
+add_card_to_deck('Defend', starter_deck_Silent, silent_cards, 5)
+add_card_to_deck('Survivor', starter_deck_Silent, silent_cards, 1)
+add_card_to_deck('Neutralize', starter_deck_Silent, silent_cards, 1)
+# print(starter_deck_Silent)
 
 
-# print(loaded[0]['character'])
+# ターンを進める処理
+# drawはシャッフルされた状態で渡す
+def turn_going(draw: CardList, discard: CardList, count: int = 1):
+
+    print(f'draw={draw.names}')
+    hand = CardList([])
+
+    for _ in range(5):
+        hand.append(draw.pop())
+
+    # print(f'hand={hand.names}')
+    # print(f'draw={draw.names}')
+    # print(f'discard={discard.names}')
+
+    # 手札のカードを使用優先順位で並び替える
+    hand.sort(key=lambda card: (-card.cost, card.damage))
+    print(f'hand={hand.names}')
+
+    # カードを使用する
+    energy = 3
+    damage = 0
+    while energy > 0:
+        card = hand.pop()
+        if card is None:
+            print('Error')
+        print(f'{card=}')
+        energy -= card.cost
+        damage += card.damage
+        discard.append(card)
+
+    print(f'{damage=}')
+    print(f'hand={hand.names}')
+    return damage
+
+
+draw = CardList(starter_deck_Silent.copy())
+rd.shuffle(draw)
+discard = CardList([])
+turn_going(draw, discard, 1)
+
+# 1ターンの平均ダメージを出してみる
+total = 0
+n = 10000
+for _ in range(n):
+    draw = CardList(starter_deck_Silent.copy())
+    rd.shuffle(draw)
+    discard = CardList([])
+    total += turn_going(draw, discard, 1)
+average = total / n
+print(f'{average=}')
+
+
+# ダメージ計算
+def damage_calc_with_turn(deck: list, turn: int):
+    pass
