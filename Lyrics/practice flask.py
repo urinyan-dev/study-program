@@ -6,7 +6,9 @@ print(app)
 
 @app.route('/')
 def home():
-    return 'hello Flask'
+    return 'hello flask'
 
 
 app.run()
+
+print('aaaあaaaaaaaadadwadwadadああああaaああa')
