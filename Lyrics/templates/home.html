@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>hello world</h1>
+    <h1>hello flask</h1>
+
+    {% for item in items %}
+    <p>{{item}}</p>
+    {% endfor %}
+
+    <h2><a href="/form">jump to form</a></h2>
 </body>
 </html>

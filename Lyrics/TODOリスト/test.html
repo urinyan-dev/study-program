@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    hello js
+</body>
+<script>
+    // let score = 100;
+    // console.log(`スコアは${score}点です`)
+
+    let score1 = 70;
+    let score2 = 30;
+    let scores = [100, 70, 30]
+
+    const compare = (sc) => {
+        if (sc >= 80) {
+            console.log('合格');
+        } else if (sc >= 50) {
+            console.log('ぎり許す');
+        } else {
+            console.log('不合格')
+        }
+    }
+
+    scores.forEach(score => {
+        compare(score)
+    });
+
+    // compare(score);
+    // compare(score1);
+    // compare(score2);
+
+</script>
+</html>

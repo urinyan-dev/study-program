@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>フォーム練習</title></head>
+<body>
+  <input type="text" id="nameInput" placeholder="名前を入力">
+  <input type="number" id="scoreInput" placeholder="点数を入力">
+  <button id="submitBtn">登録</button>
+
+  <ul id="resultList"></ul>
+
+  <script>
+    const name = document.querySelector('#nameInput');
+    const score = document.querySelector('#scoreInput');
+    const resultList = document.querySelector('#resultList');
+    const btn = document.querySelector('#submitBtn');
+    btn.addEventListener('click', () => {
+       console.log(name.value);
+       console.log(score.value); 
+    })
+  </script>
+</body>
+</html>
+<!-- 
+「登録」ボタンが押されたら、nameInputとscoreInputの値を取得する
+「名前：〇〇　点数：△△」という形式のテキストを作る
+それを<li>要素としてresultListの中に追加する（新しく登録するたびに、下にどんどん増えていく想定）
+登録が終わったら、両方の入力欄を空にする（次の入力をしやすくするため） -->

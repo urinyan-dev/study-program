@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOリスト</title>
+</head>
+<body>
+    <form action="/tool/add" method="POST">
+        <input type="text" name="todo">
+        <button type="submit">追加</button>
+    </form> 
+
+    {% for todo in todos %}
+        <p>{{ todo }}</p>      
+        <form action="/delete" method="POST">
+            <input type="hidden" name="index" value="{{ loop.index0 }}">
+            <button type="submit">削除</button>
+        </form> 
+    {% endfor %}
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head><title>DOM練習</title></head>
+<body>
+  <h1 id="message">まだクリックされていません</h1>
+  <button id="countBtn">クリック</button>
+  <p>クリック回数: <span id="count">0</span></p>
+  <button id="resetBtn">カウントリセット</button>
+
+  <script>
+    const msg = document.querySelector('#message');
+    const countbtn = document.querySelector('#countBtn');
+    const resetbtn = document.querySelector('#resetBtn');
+    const count = document.querySelector('#count');
+    let counter = 0;
+    countbtn.addEventListener('click', () => {
+        if (counter === 0) {
+            msg.textContent = 'クリックされました！';
+        }
+        counter++;
+        count.textContent = counter;
+    });
+
+    resetbtn.addEventListener('click', () => {
+      msg.textContent = 'まだクリックされていません';
+      counter = 0;
+      count.textContent = counter;
+    });
+  </script>
+</body>
+</html>
