@@ -9,13 +9,28 @@
   <ul id="resultList"></ul>
 
   <script>
-    const name = document.querySelector('#nameInput');
-    const score = document.querySelector('#scoreInput');
+    const judge = (score) => {
+      score = Number(score)
+      if (score >= 70) {
+        return '合格';
+      } else {
+        return '不合格';
+      }
+    };
     const resultList = document.querySelector('#resultList');
     const btn = document.querySelector('#submitBtn');
     btn.addEventListener('click', () => {
-       console.log(name.value);
-       console.log(score.value); 
+      const name = document.querySelector('#nameInput');
+      const score = document.querySelector('#scoreInput');
+      console.log(`名前：${name.value}`);
+      console.log(`点数：${score.value}`); 
+
+      const newLi = document.createElement('li');
+      newLi.textContent = `名前：${name.value} 点数：${score.value} 判定：${judge(score.value)}`
+      resultList.appendChild(newLi);
+
+      name.value = '';
+      score.value = '';
     })
   </script>
 </body>
