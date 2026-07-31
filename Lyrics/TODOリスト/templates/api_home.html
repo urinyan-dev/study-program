@@ -30,6 +30,13 @@
             newLi.textContent = data;
             const resultList = document.querySelector("#resultList");
             resultList.appendChild(newLi);
+            const deleteBtn = document.createElement("button");
+            deleteBtn.textContent = "削除";
+            newLi.appendChild(deleteBtn);
+
+            deleteBtn.addEventListener("click", () => {
+              newLi.remove();
+            });
           });
       });
     </script>

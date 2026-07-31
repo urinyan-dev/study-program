@@ -16,14 +16,14 @@ def home():
 def api_add():
     todo = request.json['todo']
     todos.append(todo)
-    return jsonify(todos)
+    return jsonify(todo)
 
-
-@app.route('/delete', methods=['POST'])
-def delete():
-    index = int(request.form['index'])
-    todos.pop(index)
-    return redirect('/')
+# 今回は使用しない
+# @app.route('/delete', methods=['POST'])
+# def delete():
+#     index = int(request.form['index'])
+#     todos.pop(index)
+#     return redirect('/')
 
 
 app.run(debug=True)
